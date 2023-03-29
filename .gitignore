@@ -1,0 +1,25 @@
+# npm
+package-lock.json
+node_modules
+
+# yarn
+yarn.lock
+*.yaml
+package-lock.json
+
+# vscode
+.vscode
+
+# vuepress
+/dist
+*/.vuepress
+.temp
+
+# 百度链接推送
+urls.txt
+
+# mac
+.DS_Store
+/.idea/
+/vuepress-theme-vdoing-doc
+
