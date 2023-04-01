@@ -23,3 +23,8 @@ urls.txt
 /.idea/
 /vuepress-theme-vdoing-doc
 
+# gh-pages
+/docs
+*.md
+*.json
+*.sh
