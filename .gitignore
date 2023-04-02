@@ -12,7 +12,7 @@ package-lock.json
 
 # vuepress
 /dist
-*/.vuepress
+# */.vuepress
 .temp
 
 # 百度链接推送
@@ -22,4 +22,6 @@ urls.txt
 .DS_Store
 /.idea/
 /vuepress-theme-vdoing-doc
-
+manifest.json
+/data
+/images
