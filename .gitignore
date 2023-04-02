@@ -26,5 +26,4 @@ urls.txt
 # gh-pages
 /docs
 *.md
-*.json
 *.sh
