@@ -7,7 +7,7 @@ module.exports = {
   title: "sm novel",
   description: 'sm,sm小说,,,,,小说,novel,拷问,捆绑,调教,鞭打,虐足,虐乳,道具,百合,涂上红红,狐妖小红娘,白龙少女',
 
-  port: 9001,
+  port: 7001,
   temp: './.temp',
   dest: './dist',
 
