@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{339:function(t,s,e){"use strict";e.r(s);var n={data:()=>({swtichTest:!1}),mounted(){},watch:{$route(t,s){"/pages/8f2168/"===t.path?this.swtichTest=!0:this.swtichTest=!1},swtichTest(t,s){console.log(t,s)}}},c=e(9),i=Object(c.a)(n,(function(){this._self._c;return this._e()}),[],!1,null,null,null);s.default=i.exports}}]);
