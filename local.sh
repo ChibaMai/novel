@@ -14,7 +14,7 @@ echo "打包完成"
 
 echo "开始移动"
 
-sudo cp -R ~/Study/novel/dist/ /Library/WebServer/Documents
+sudo cp -R ~/Study/novel/dist/ /Library/WebServer/Documents/dist/
 
 echo "移动成功"
 
