@@ -27,3 +27,4 @@ urls.txt
 /docs
 *.md
 *.sh
+yarn-error.log

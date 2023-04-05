@@ -1,0 +1,70 @@
+Arguments: 
+  /usr/local/bin/node /Users/fourleaves/Library/pnpm/global/5/node_modules/yarn/bin/yarn.js add vuepress-plugin-transition
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/fourleaves/Library/pnpm:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/mysql/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/vuepress-plugin-transition: Not found
+      at Request.params.callback [as _callback] (/Users/fourleaves/Library/pnpm/global/5/.pnpm/yarn@1.22.19/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/Users/fourleaves/Library/pnpm/global/5/.pnpm/yarn@1.22.19/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/Users/fourleaves/Library/pnpm/global/5/.pnpm/yarn@1.22.19/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/Users/fourleaves/Library/pnpm/global/5/.pnpm/yarn@1.22.19/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "novel",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "vuepress dev docs",
+      "build": "vuepress build docs",
+      "deploy": "bash deploy.sh",
+      "local": "bash local.sh"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@vuepress/plugin-clean-urls": "1.0.0-alpha.40",
+      "@vuepress/plugin-pwa": "^1.9.9",
+      "vuepress-plugin-transition": "^1.1.0",
+      "dayjs": "^1.9.7",
+      "html-minifier": "^4.0.0",
+      "inquirer": "^7.1.0",
+      "json2yaml": "^1.1.0",
+      "terser": "^5.16.8",
+      "vuepress": "^1.9.9",
+      "vuepress-plugin-baidu-tongji": "^1.0.1",
+      "vuepress-plugin-demo-block": "^0.7.2",
+      "vuepress-plugin-fulltext-search": "^2.2.1",
+      "vuepress-plugin-one-click-copy": "^1.0.2",
+      "vuepress-plugin-reading-time": "^0.1.1",
+      "vuepress-plugin-thirdparty-search": "^1.0.2",
+      "vuepress-plugin-zooming": "^1.1.7",
+      "vuepress-theme-vdoing": "^1.12.8",
+      "yamljs": "^0.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

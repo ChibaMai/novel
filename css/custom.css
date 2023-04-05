@@ -1,0 +1,38 @@
+.vuepress-transition {
+  position: absolute;
+  width: 100%;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+.vuepress-enter {
+  animation-name: vuepress-enter;
+  opacity: 0;
+}
+
+.vuepress-leave {
+  animation-name: vuepress-leave;
+  opacity: 1;
+}
+
+@keyframes vuepress-enter {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes vuepress-leave {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
