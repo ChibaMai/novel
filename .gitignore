@@ -23,5 +23,6 @@ urls.txt
 /.idea/
 /vuepress-theme-vdoing-doc
 manifest.json
+yarn-error.log
 /data
 /images

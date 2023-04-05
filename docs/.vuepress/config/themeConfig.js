@@ -14,11 +14,12 @@ module.exports = {
   sidebarOpen: true,
   sidebarDepth: 2,
   logo: '',
-  repo: 'ChibaMai',
+  repo: 'ChibaMai/novel',
   searchMaxSuggestions: 20,
   lastUpdated: 'Last update',
   // 编辑的文件夹
   docsDir: 'docs',
+  docsBranch: 'main',
   editLinks: true,
   editLinkText: 'Edit',
   // 最近更新栏

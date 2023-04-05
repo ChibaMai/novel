@@ -13,6 +13,26 @@ module.exports = [
   // 全文搜索
   ['fulltext-search'],
 
+  ['@vuepress/plugin-clean-urls'],
+
+  [
+    '@vuepress/plugin-nprogress',
+    {
+      lang: 'zh-CN',
+    },
+  ],
+
+  [
+    'vuepress-plugin-reading-time',
+    {
+      excludes: ['/about'], // 排除不需要计算的页面
+      // 配置可选参数
+      wordPerminute: 300, // 预计每分钟阅读字数
+      showReadingTime: true, // 是否在文章中显示预计阅读时间
+      showWordCount: true, // 是否在文章中显示字数
+      format: '{time} 分钟阅读' // 自定义阅读时间格式
+    }
+  ],
 
   // pwa
   [
