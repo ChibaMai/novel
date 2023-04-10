@@ -15,6 +15,10 @@ module.exports = [
 
   ['@vuepress/plugin-clean-urls'],
 
+  // 顶部阅读实时进度插件
+  ['reading-progress'],
+
+  // 页面切换加载进度条
   [
     '@vuepress/plugin-nprogress',
     {

@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+# mac 使用本地 apache 运行程序
 
 # 确保脚本抛出遇到的错误
 set -e
